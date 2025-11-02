@@ -1,6 +1,6 @@
 package lotto.model
 
-class LottoMachine(private val lottoNumberGenerator: LottoNumberGenerator) {
+class LottoMachine(private val lottoNumberGenerator: NumberGenerator) {
 
     fun pickLotto(): Lotto {
         val lottoNumber = lottoNumberGenerator.generateLottoNumber()
