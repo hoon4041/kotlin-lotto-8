@@ -1,5 +1,7 @@
 package lotto
 
 fun main() {
-    // TODO: 프로그램 구현
+    val appConfig = AppConfig()
+    val controller = appConfig.controller()
+    controller.run()
 }
